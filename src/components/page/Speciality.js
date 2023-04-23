@@ -1,5 +1,5 @@
 import React from 'react';
-import * as ig from './img';
+import * as ig from '../images/img';
 
 function Speciality() {
     return (
