@@ -1,11 +1,14 @@
 import React from 'react';
-import Main from './components/page/Main';
+import Header from './components/page/Header';
+import Home from './components/page/Home';
 
-const App = () => {
+function App() {
     return (
-        <div>
-            <Main />
-        </div>
+        <>
+            <Header />
+            <Home />
+
+        </>
     )
 };
 

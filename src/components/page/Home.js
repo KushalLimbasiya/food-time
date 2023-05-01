@@ -1,10 +1,13 @@
 import React from 'react';
 import { homeImg } from '../images/img.js';
-
+import Speciality from './Speciality.js';
+import Popular from './Popular.js';
+import Gallary from './Gallary.js';
 
 function Home() {
     return (
-        <>
+        <>  
+            
             <section className="home" id="home">
                 <div className="content">
                     <h3> food made with love  </h3>
@@ -18,6 +21,9 @@ function Home() {
                     <img src={homeImg} alt="img" />
                 </div>
             </section>
+            <Speciality />
+            <Popular />
+            <Gallary />
         </>
     )
 };
