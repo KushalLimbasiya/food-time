@@ -3,7 +3,7 @@ import {oderImg} from '../images/img';
 
 const Order = () => {
     return (
-        <div className='order' id='order'>
+        <section className='order' id='order'>
                 <h1 class="heading"><span>order</span> now </h1>
         
                 <div class="row">
@@ -29,7 +29,7 @@ const Order = () => {
                 </form>
             </div>
         
-        </div>
+        </section>
     )
 }
 
