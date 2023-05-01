@@ -4,6 +4,7 @@ import Speciality from './Speciality.js';
 import Popular from './Popular.js';
 import Gallary from './Gallary.js';
 import Review from './Review.js';
+import Order from './Order.js';
 
 function Home() {
     return (
@@ -26,6 +27,7 @@ function Home() {
             <Popular />
             <Gallary />
             <Review />
+            <Order />
             <section class="footer">
 
             <div class="share">
