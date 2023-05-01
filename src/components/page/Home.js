@@ -3,6 +3,7 @@ import { homeImg } from '../images/img.js';
 import Speciality from './Speciality.js';
 import Popular from './Popular.js';
 import Gallary from './Gallary.js';
+import Review from './Review.js';
 
 function Home() {
     return (
@@ -24,6 +25,7 @@ function Home() {
             <Speciality />
             <Popular />
             <Gallary />
+            <Review />
         </>
     )
 };
