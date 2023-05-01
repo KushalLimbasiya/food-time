@@ -26,6 +26,15 @@ function Home() {
             <Popular />
             <Gallary />
             <Review />
+            <section class="footer">
+
+            <div class="share">
+                <a href="https://github.com/KushalLimbasiya" class="btn">GitHub</a>
+            </div>
+
+            <h2 class="creadit">created by<span>Kushal Limbasiya</span></h2>
+
+            </section>
         </>
     )
 };
