@@ -15,7 +15,7 @@ function Header () {
             
                     <nav className="navbar">
                         <a href="#home">home</a>
-                        <a href="#Menu">Menu</a>
+                        <a href="#speciality">Speciality</a>
                         <a href="#popular">Popular</a>
                         <a href="#gallery">Gallery</a>
                         <a href="#review">Review</a>

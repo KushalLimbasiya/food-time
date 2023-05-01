@@ -11,7 +11,7 @@ function Speciality() {
                 <div className="box-container">
                     
                     <div className="box">
-                        
+                         
                         <img className="image" src={ig.simg1} alt=""/>
                         
                         <div className="content">
