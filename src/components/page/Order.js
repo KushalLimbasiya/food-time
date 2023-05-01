@@ -1,4 +1,5 @@
 import React from 'react';
+import {oderImg} from '../images/img';
 
 const Order = () => {
     return (
@@ -7,7 +8,7 @@ const Order = () => {
         
                 <div class="row">
                 <div class="image">
-                    <img src="" alt=""/>    
+                    <img src={oderImg} alt=""/>    
                 </div>
                 <form action="">
                     
